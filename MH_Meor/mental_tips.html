@@ -1,0 +1,191 @@
+<?php
+require "Database_connection.php";
+
+	
+?>
+<html>
+<head>
+<title> Edit Profile</title>
+
+
+</head>
+<style type="text/css">
+html { 
+  background: url(icons&images/1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table {
+  
+  border-collapse: collapse;
+  border: 1px ;
+  width: 1200px;
+  
+}
+td {
+	font-family: Arial;
+	font-size: 18px;
+	border: 1px solid black;
+	height: 15px;
+}
+
+th {
+	font-family: Arial;
+	font-size: 18px;
+	border: 1px solid black;
+	height: 15px;
+}
+h1 {
+  color: white;
+}
+.content {
+	
+	background-color: black;
+	color: #000000;
+	padding: 40px;
+	height: 1700px;
+	width: 1250px;
+	margin: 100px auto;	
+  	border: 5px solid black;
+  	opacity: 0.8;
+	
+
+}
+
+
+
+</style>
+<body>
+
+
+	<div class = "content">
+		<center>
+		<h1>Mental Health Tips</h1>
+		<svg id="svgelem" height="50">
+		<polygon points="0,10 300,10, 150,50" fill="#FF7F7F";style="stroke:red;stroke-width:5" />
+		</svg>
+		<br><br><br><br>
+		
+		<table bgcolor="#FEFFEC ">
+		<tr>
+		
+            <th colspan="3"><br><h3><b>List of Tips</b></h3><br></th>
+        </tr>
+		<tr bgcolor="#ff9900">
+			<th><b>Date</b></th>
+			<th><b>Tips</b></th>
+			<th><b>Discription</b></th>
+		</tr>
+		<tr>
+			<td>12/08/2020</td>
+			<td><b>Avoid alcohol, smoking and drugs</b></td>
+			<td><br><p>Drinking and smoking aren't things which we always associate with withdrawal symptoms, but they can cause some which impact on your mental health. 
+			When you've had a few drinks you can feel more depressed and anxious the next day, and it can be harder to concentrate. 
+			Excessive drinking for prolonged periods can leave you with a thiamine deficiency. 
+			Thiamine is important for our brain function and a deficiency can lead to severe memory problems, motor (coordination) problems, confusion and eye problems. 
+			If you smoke, between cigarettes your body and brain go into withdrawal which makes you irritable and anxious. 
+			Other drugs will often leave you in withdrawal and can often cause very low moods and anxiety. 
+			More severe effects of drugs include paranoia and delusions.
+			There is some research that suggests drug use is related to developing mental disorders like schizophrenia.</p><br></td>
+		</tr>
+		<tr>
+			<td>12/15/2020</td>
+			<td><b>Eat well</b></td>
+			<td><br><p>Eating well isn't just important for our bodies, but it's also important for our minds. 
+			Certain mineral deficiencies, such as iron and vitamin B12 deficiencies, can give us a low mood. 
+			Try to eat a balanced diet. If you find you're a particularly stressed or anxious person, you should try limiting or cutting out caffeine as this can make you feel jittery and anxious.</p><br></td>
+		</tr>
+		
+		<tr>
+			<td>12/22/2020</td>
+			<td><b>Do something you enjoy</b></td>
+			<td><br><p>Try to make time for doing the fun things you enjoy. If you like going for a walk, painting or a specific TV show, try to set aside time to enjoy yourself. If we don't spend any time doing things we enjoy, we can become irritable and unhappy. 
+			Whether you need help to get out and about or not take a look at our Things To Do section, or go to our 
+			Events calendar, for ideas and information on what is going on in your area.</p><br></td>
+		</tr>
+		
+		</table>
+		
+		<br><br>
+		<table bgcolor="#F9D762 ">
+		<center>
+		<tr>
+			<th>
+				<label for="title">Tips:</label><br>
+				<input type="text" id="title" name="title"><br><br>
+
+				
+				
+				
+				
+				<form>
+				<label for="message">Description:</label><br>
+				<textarea name="message" style="width:1000px; height:100px;">Write here !</textarea>
+				<br>
+				</form>
+ 
+  
+				<label for="Date of Birth"> 
+				Enter the Date: 
+				<input type="date" name="date"> 
+				</label>
+				<br><br> 
+				
+			
+			
+			
+			
+			
+			</th>
+			
+		</tr>
+		</center>
+	</table>
+		<br><br>
+		
+		<button style="height:50px;width:200px"; onclick="Function()">
+		Submit
+		</button>
+		<script>
+		function Function() {
+		alert("Tips Upload");
+		}
+		</script>
+		<button style="height:50px;width:200px"; onclick="window.location.href='mental_tips.html';">
+		Cancel
+		</button>
+		<script>
+		function myFunction() {
+		alert("Tips Upload");
+		}
+		</script>
+		
+       <input type="button" class="btn btn-success" style="font-weight: bold;display: inline; height:50px;width:200px" value="Close" onclick="closeMe()">
+		<script>
+		function closeMe()
+		{
+			window.opener = self;
+			window.close();
+		}
+		</script>
+
+	
+		</center>
+		
+	
+	</div>
+</body>
+
+</html>
