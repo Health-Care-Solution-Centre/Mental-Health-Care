@@ -4,7 +4,8 @@
 Email: expert@gmail.com
 Password: exp123
 
-3. Admin (3rd html) email: admin@gmail.com
+3. Admin 
+email: admin@gmail.com
 password: 010101
 
 4. User
