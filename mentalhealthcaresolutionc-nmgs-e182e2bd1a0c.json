@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mentalhealthcaresolutionc-nmgs",
+  "private_key_id": "e182e2bd1a0cc5280a4d9f2ce3010a65f97f3cb5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCs/hDf35rEn2Uq\nO2l9tiItjCGK5w9SlaEvqE+PSh2OXBsbq11qE6gOOuem1yzveXqsATeFjx6Omyn0\nl19DzKOjhXA4dunw/R9h6OhHmBJSWKDQUtW9bTJqB7nmkXy+WM8EuJ1r2gWQJFGj\nwpo2Ap5fDoj9SW8YF8jJFfI4wX0i+FK7Y0EXvjwEgm8fx/K9p2SxMeQ4wQXJ3OhZ\n1Pj/Ov5waaJG+FMN5MOuOKlMXlI2/7taNrPmZiMDI1QOjKMD1PuzJhXpFg0Bmkdh\nIfyVgAP+NdyYZwja5bMMEerdnwPr0qq3FQbHRAhAEeMM47f0k5w1BA5Kg3jxrQ2n\nbciqG+STAgMBAAECggEABgscKM4FeJ/+50JLFaayu/ecxl77FI4AowsUuHNE5A/I\nrKdIbKfCI7kgFZ6HxdfvFqo2N9a/oQi/pvlQzSwNfW1wdbCFzLLzETcTQkkIPtM0\nzwJN0D/L1pNthaYIfxfYJ5iRe06TCi2Soo9uVruxr61w0LRriqJuE8ROAXiU+A84\n+l8fAegCgNqfqBs4+4SrEedeBieRGmwFLAvDsYStALOngpESYfuAt0w/K3by/y/e\nJz0to8xogUIEEF+ZxmwkJ5WiggLyCd9xw3pH9NcN9QCjFBywfNtkdI5bzIXJczxT\n8uNMS/Uo5z5ijsmnE2ti1g6TMZIL0nR9tPvxd44FnQKBgQDsxRU1TZF4fqSY9v9i\nmhQiS2l5zJbjSG2XSGa9cmd9rQffl8A/YViLeQqt1uR/3n6tsyy/qaERaCkuPiF2\nGSaPUjB2ZLXzS0lENyUmOigPkp7ofI+UT2g8F9sbdP4bRG3JlRsZksN+HlSbWs9/\n/KSZGATxE8cRcDMjVPcR94EbHwKBgQC7Cuxx/EQWVkZwKJLFKwzKzbjFC8UjHzEU\nyuHvJiOPXmVCS9zJJLSeUSMyHNlteTmfHJM4ZB+MhvXAPiV/i5eawbPr7RhdmqTq\nA6+i9uByin710GR/m/8F6jo8m/Ejk+g9v0WpFM62s2bekgVALcbXkVmLVcstBsfG\ntj3cfcX8DQKBgBY3A59lsMFyeHUVr66LsFnrY3EXHg0jLY0lMOaThlxHUNbMwS/x\nLUKgz7yxzeylbpNTnV46Ry9/62U4VSFkiLanyn5BQsUaCjzJQ8YLbNjRM/GyRjJv\nJOOGhXtVBcZ/LCHeyJUkrQz3QY71/UQP602l8EjCR0o+kb296hSYeVeXAoGAXfn/\nEsZM72wpt/CqzaXzp3H1hAuF4T+qyWemXSIse7xR5B15sRZgKatao7MbC4X9DZSt\n44dq0pB8qTqQXKUmZvssCz31IBKzCWEQvjCMVQCBCcDKvdMDL1WgLROs9NM7vMp9\nlZZ+xg0dgnabbMOTRHwjIX7ZtqXRemXWbxJCh4ECgYEA2gw1+tzfJ9ZI2KvUJE2u\n+ERwDdpZG+91OR0Q6pdD7lCPOs54T6RVxtcmUwUczwnrORtFVLwW/3yJEakQovWj\nOj0aXe0GcX6x+plRkemi1ecNK7ThMe0TEvaxCcPIo35VtCQ+axfAHymvk0fmpl+T\n6Fge41HOtQFOzcAoq6g+o4A=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mental-health-care@mentalhealthcaresolutionc-nmgs.iam.gserviceaccount.com",
+  "client_id": "116021205484522983339",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mental-health-care%40mentalhealthcaresolutionc-nmgs.iam.gserviceaccount.com"
+}
